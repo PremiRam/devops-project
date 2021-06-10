@@ -7,7 +7,7 @@ Create a new Google Cloud Project (or select an existing project).
 
 Enable the Cloud Run API.
 
-[Create a Google Cloud service account][sa] or select an existing one.
+[Create a Google Cloud service account] or select an existing one.
 
 Add the the following Cloud IAM roles to your service account:
 
@@ -23,7 +23,7 @@ Add the following [secrets to your repository's secrets][gh-secret]:
 
 GCP_PROJECT: Google Cloud project ID
 
-GCP_SA_KEY: the downloaded service account ke
+GCP_SA_KEY: the downloaded service account key
 
 get updates about what’s happening on GitHub--with Slack notification
 
