@@ -5,7 +5,7 @@ Setup
 
 Create a new Google Cloud Project (or select an existing project).
 
-Enable the Cloud Run API.
+<Enable the Cloud Run API>.
 
 [Create a Google Cloud service account] or select an existing one.
 
