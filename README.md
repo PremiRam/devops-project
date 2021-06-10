@@ -1,43 +1,29 @@
 # devops-project
 URL- https://devopsproject-yytya6w6fa-uc.a.run.app
 
-#Setting up Continuous Integration with Cloud Build
+Setup
 
-The first step to Continuous Deployment is to have Continuous Integration configured. Cloud Build is a service that runs on demand and executes a series of commands. We can easily configure it through the website and connect it with Github to setup webhook so that each time to commit Cloud Build will get notified.
+Create a new Google Cloud Project (or select an existing project).
 
-Create a small example app
+Enable the Cloud Run API.
 
-Creating a small node.js server
+[Create a Google Cloud service account][sa] or select an existing one.
 
-The command to start the server
-CMD node server.js
+Add the the following Cloud IAM roles to your service account:
 
-Creating a docker image
+Cloud Run Admin - allows for the creation of new Cloud Run services
 
-Push it to Github
+Service Account User - required to deploy to Cloud Run as service account
 
-Setting up Continuous Integration with Cloud Build
+Storage Admin - allow push to Google Container Registry
 
-Creating a new project
+Download a JSON service account key for the service account.
 
-Setting up Cloud Build
+Add the following [secrets to your repository's secrets][gh-secret]:
 
-Deploying and running on Cloud Run
+GCP_PROJECT: Google Cloud project ID
 
-Deploy a new version manually
-
-Deploying automatically with Cloud Build
-
-Defining build steps in cloudbuild.yaml
-
-Pushing the docker image
-
-Add the final step, deploying with the gcloud cli
-
-Running gcloud and deploy cloud run
-
-Add gcloud command to cloud build
-
+GCP_SA_KEY: the downloaded service account ke
 
 get updates about what’s happening on GitHub--with Slack notification
 
