@@ -1,5 +1,5 @@
 steps:
 - name: 'gcr.io/cloud-builders/docker'
-  args: ['build', '-t', 'gcr.io/devopsproject-316402/devopsproject-316402/devops-project:$SHORT_SHA', '.']
+  args: ['build', '-t', 'gcr.io/devopsproject-316402/devopsproject-316402/github.com/premiram/devodevops-project:$SHORT_SHA', '.']
 - name: 'gcr.io/cloud-builders/docker'
-  args: ['push', 'gcr.io/devopsproject-316402/devopsproject-316402/devops-project:$SHORT_SHA']
+  args: ['push', 'gcr.io/devopsproject-316402/devopsproject-316402/github.com/premiram/devodevops-project:$SHORT_SHA']
