@@ -27,7 +27,5 @@ GCP_SA_KEY: the downloaded service account key
 
 get updates about what’s happening on GitHub--with Slack notification
 
-![Screenshot (376)](https://user-images.githubusercontent.com/79751930/121505001-0744b780-ca15-11eb-9c13-535f503026b5.png)
-
 
 
