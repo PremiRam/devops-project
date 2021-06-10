@@ -1,5 +1,5 @@
 # devops-project
-url- https://devopsproject-yytya6w6fa-uc.a.run.app
+URL- https://devopsproject-yytya6w6fa-uc.a.run.app
 
 #Setting up Continuous Integration with Cloud Build
 
