@@ -1,6 +1,7 @@
 # devops-project
 URL- https://devopsproject-yytya6w6fa-uc.a.run.app
 
+
 Setup
 
 Create a new Google Cloud Project (or select an existing project).
@@ -28,4 +29,4 @@ GCP_SA_KEY: the downloaded service account key
 get updates about what’s happening on GitHub--with Slack notification
 
 
-
+![Screenshot (376)](https://user-images.githubusercontent.com/79751930/121534216-9b257c00-ca33-11eb-9d14-0e39f0bdd889.png)
