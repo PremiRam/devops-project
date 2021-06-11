@@ -2,6 +2,11 @@
 URL- https://devopsproject-yytya6w6fa-uc.a.run.app
 
 
+Slack chat
+
+https://app.slack.com/client/T024G9ECT6H/D024M1NRFMZ
+
+
 Setup
 
 Create a new Google Cloud Project (or select an existing project).
