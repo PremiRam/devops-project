@@ -1,3 +1,4 @@
+
 # devops-project
 URL- https://devopsproject-yytya6w6fa-uc.a.run.app
 
@@ -33,5 +34,6 @@ GCP_SA_KEY: the downloaded service account key
 
 get updates about what’s happening on GitHub--with Slack notification
 
-
+![Screenshot (376)](https://user-images.githubusercontent.com/79751930/121622413-8af7b600-caa0-11eb-8f17-5060303dc934.png)
+![Screenshot (378)](https://user-images.githubusercontent.com/79751930/121622439-964ae180-caa0-11eb-8d06-f953e97b6bc6.png)
 
